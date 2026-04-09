@@ -1,9 +1,0 @@
-oip=int(input("Enter a number"))
-ip=oip
-digits=0
-while(ip>0):
-    ip=ip//10
-    if (ip<=0):
-        oip=ip
-    digits+=1
-print(oip%(10**digits))
