@@ -1,0 +1,5 @@
+num1=int(input("Enter a number"))
+num2=int(input("Enter another number"))
+print(f"numbers before swapping {num1},{num2} ")
+num1,num2=int(num2),int(num1)
+print(f"numbers after swapping {num1},{num2} ")

@@ -1,11 +1,11 @@
-a=int(input("Enter the number of days"))
+a=int(input("Enter the number of days"))#accepting the number of days as the input
 years=month=days=0
-years=(a//365)
+years=(a//365)#calculating the number of years
 a%=365
-print("Years->",years)
+print("Years->",years)#displaying number of years
 
-month+=(a//30)
-days=a%30
-print("month->",month)
+month+=(a//30)#calculating number of months
+days=a%30#calculating number of days
 
-print("days->",days)
+print("month->",month)#displaying number of months
+print("days->",days)#displaying number of days
