@@ -1,0 +1,5 @@
+a = int(input("Enter the length of side 1 "))
+b = int(input("Enter the length of side 2: "))
+c = int(input("Enter the length of side 3: "))
+is_triangle = (a + b > c) and (a + c > b) and (b + c > a)
+print(is_triangle)
