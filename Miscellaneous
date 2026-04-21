@@ -1,0 +1,8 @@
+name = input("Enter your name: ").lower()
+year = input("Enter your birth year: ")
+
+print("\nSuggested Usernames:")
+print(name + "_" + year)
+print(name + year[-2:])
+print("cool" + name + year)
+print(name + "_official")
