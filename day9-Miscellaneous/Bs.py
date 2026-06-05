@@ -3,7 +3,7 @@ snum=int(input("enter your number"))
 low=0
 high=len(nums)-1
 mid=(low+high)//2
-while snum!=nums[mid]:
+while low<=high:
     if snum>nums[mid]:
         low=mid
         mid=(low+high)//2
